@@ -7,4 +7,6 @@ phases:
       - echo Building the Docker image...
       - docker build -t nest-app:latest .
 artifacts:
-  files: imagedefinitions.json
+  files: 
+    - aws-spec.yml
+    - dist/*
