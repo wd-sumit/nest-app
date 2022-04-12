@@ -6,7 +6,3 @@ phases:
       - docker --version
       - echo Building the Docker image...
       - docker build -t nest-app:latest .
-artifacts:
-  files: 
-    - aws-spec.yml
-    - dist/*
